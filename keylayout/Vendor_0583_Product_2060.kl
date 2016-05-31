@@ -1,5 +1,4 @@
-#
-# Copyright (C) 2011 The Android Open-Source Project
+# Copyright (C) 2013 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,7 +11,17 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/sk1wg.mk
+# ION GO PAD
+
+key 288 BUTTON_A
+key 289 BUTTON_B
+key 290 BUTTON_X
+key 291 BUTTON_Y
+key 294 BUTTON_L1
+key 295 BUTTON_R1
+key 292 BUTTON_L2
+key 293 BUTTON_R2
+
+axis 0x00 HAT_X
+axis 0x01 HAT_Y

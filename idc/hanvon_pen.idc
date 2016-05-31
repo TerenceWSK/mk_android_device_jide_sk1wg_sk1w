@@ -1,0 +1,2 @@
+touch.orientationAware = 1
+

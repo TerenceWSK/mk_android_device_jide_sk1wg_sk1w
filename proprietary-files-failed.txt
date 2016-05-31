@@ -1,0 +1,17 @@
+#lib/libmaxxaudio_jni.so
+#lib/libnvasfparserhal.so
+#lib/libnvaviparserhal.so
+#lib/libnvcapaudioservice.so
+#lib/libnvcapclk.so
+#lib/libnvcap.so
+#lib/libnvcap_video.so
+#lib/libnvcms.so
+#lib/libnvhdmi3dplay_jni.so
+#lib/libnvmm_asfparser.so
+#lib/libnvmm_aviparser.so
+#lib/libnvmm_vc1_video.so
+#lib/libnvopt_dvm.so
+#lib/libnvremoteevtmgr.so
+#lib/libnvremotell.so
+#lib/libnvremoteprotocol.so
+#lib/libnvupdater_jni.so
