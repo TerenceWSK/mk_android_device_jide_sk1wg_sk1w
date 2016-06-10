@@ -45,7 +45,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 
 # Try to build the kernel
 TARGET_KERNEL_SOURCE := kernel/jide/sk1wg
-TARGET_KERNEL_CONFIG := cyanogenmod_sk1wg_defconfig
+TARGET_KERNEL_CONFIG := mokee_sk1wg_defconfig
 #TARGET_PREBUILT_KERNEL := device/jide/sk1wg/kernel
 
 # Video
@@ -128,7 +128,7 @@ BOARD_SEPOLICY_UNION += \
     servicemanager.te \
     sysinit.te \
     wpa_supplicant.te \
-    service.te
+#   service.te
     
 BOARD_HARDWARE_CLASS := device/jide/sk1wg/cmhw
 
