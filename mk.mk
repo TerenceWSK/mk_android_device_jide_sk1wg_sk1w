@@ -8,12 +8,12 @@ TARGET_BOOTANIMATION_USE_RGB565 := true
 $(call inherit-product, device/jide/sk1wg/sk1wg.mk)
 
 # Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/mk/config/common_full_tablet_wifionly.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_sk1wg
+PRODUCT_NAME := mk_sk1wg
 PRODUCT_BRAND := jide
 PRODUCT_DEVICE := sk1wg
 PRODUCT_MODEL := JIDE-SK1WG
